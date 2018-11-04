@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Ruta para la busqueda de recetas por palabra clave.
+Route::get('recipes/keyword/{keyword}', 'recipesService@searchRecipesByKeyword');
+//Ruta para la busqueda de recetas por ingredientes.
+Route::get('recipes/ingredients/{strIngredients}', 'recipesService@searchRecipesByIngredients');
