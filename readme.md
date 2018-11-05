@@ -14,7 +14,7 @@ El endpoint utilizado es  **/recipes/keyword/...**
 Pruebas realizadas con POSTMAN 
 ![alt text](https://raw.githubusercontent.com/dramosbarajas/O2O/master/readme/img/Keyword.png)
 
-### Búsqueda de recetas por palabra clave.
+### Búsqueda de recetas por ingredientes.
 
 Se implementa una función que espera el envío de una cadena de ingredientes, los ingredientes deben de ir separados por coma. Mediante una instancia de Guzzle llamamos al API, procesamos la respuesta y sacamos la salida en formato JSON.
 
@@ -22,4 +22,4 @@ El endpoint utilizado es  **/recipes/ingredients/...**
 Pruebas realizadas con POSTMAN 
 ![alt text](https://raw.githubusercontent.com/dramosbarajas/O2O/master/readme/img/Ingredients.png)
   
-  David Ramos
+ David Ramos
